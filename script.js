@@ -38,3 +38,6 @@ function toggleTheme() {
         btn.innerHTML = "🌙";
     }
 }
+window.addEventListener("load", function () {
+    document.getElementById("loader").style.display = "none";
+});
