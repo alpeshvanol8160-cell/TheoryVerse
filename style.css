@@ -178,3 +178,27 @@ footer {
 #topBtn:hover {
     background: #1d4ed8;
 }
+#themeBtn {
+    padding: 8px 12px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background: #ffffff;
+    font-size: 18px;
+}
+
+.dark-mode {
+    background: #111827;
+    color: white;
+}
+
+.dark-mode .theory-card,
+.dark-mode .card {
+    background: #1f2937;
+    color: white;
+}
+
+.dark-mode footer {
+    background: #000;
+}
