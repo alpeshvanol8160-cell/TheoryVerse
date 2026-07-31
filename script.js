@@ -56,3 +56,11 @@ window.addEventListener("scroll", () => {
 elements.forEach(el => {
     el.classList.add("fade-in");
 });
+// Active Navigation
+const navLinks = document.querySelectorAll(".nav-link");
+
+navLinks.forEach(link => {
+    if (link.href === window.location.href) {
+        link.classList.add("active");
+    }
+});
