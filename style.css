@@ -287,3 +287,16 @@ footer {
     padding: 20px;
     border-radius: 15px;
 }
+.nav-link.active {
+    color: #38bdf8;
+    font-weight: bold;
+    border-bottom: 2px solid #38bdf8;
+}
+
+.nav-link {
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: #38bdf8;
+}
