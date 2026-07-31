@@ -24,12 +24,13 @@ nav {
     gap: 20px;
     padding: 15px;
     background: rgba(255,255,255,0.08);
+    flex-wrap: wrap;
 }
-
 nav a {
     color: white;
     text-decoration: none;
     margin: 0 15px;
+    padding: 8px 12px;
     font-weight: bold;
 }
 
