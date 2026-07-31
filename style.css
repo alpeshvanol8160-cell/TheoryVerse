@@ -130,3 +130,31 @@ footer {
 .read-more:hover {
   background: #2980b9;
 }
+/* Premium Section */
+.categories,
+.trending {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.category-box {
+    display: inline-block;
+    background: rgba(255,255,255,0.12);
+    color: white;
+    padding: 15px 25px;
+    margin: 10px;
+    border-radius: 12px;
+    border: 1px solid rgba(255,255,255,0.3);
+    transition: 0.3s;
+}
+
+.category-box:hover {
+    transform: scale(1.08);
+    background: rgba(255,255,255,0.2);
+}
+
+.trending h2,
+.categories h2 {
+    color: white;
+    margin-bottom: 20px;
+}
