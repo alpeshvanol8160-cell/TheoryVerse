@@ -41,3 +41,18 @@ function toggleTheme() {
 window.addEventListener("load", function () {
     document.getElementById("loader").style.display = "none";
 });
+const elements = document.querySelectorAll(".theory-card, .category-box");
+
+window.addEventListener("scroll", () => {
+    elements.forEach(el => {
+        const position = el.getBoundingClientRect().top;
+
+        if (position < window.innerHeight - 100) {
+            el.classList.add("show");
+        }
+    });
+});
+
+elements.forEach(el => {
+    el.classList.add("fade-in");
+});
