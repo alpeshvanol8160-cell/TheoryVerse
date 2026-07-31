@@ -158,3 +158,23 @@ footer {
     color: white;
     margin-bottom: 20px;
 }
+#topBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background: #2563eb;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 18px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+#topBtn:hover {
+    background: #1d4ed8;
+}
