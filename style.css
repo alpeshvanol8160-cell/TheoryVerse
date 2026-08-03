@@ -382,3 +382,22 @@ a:hover {
     border-radius: 8px;
     text-decoration: none;
 }
+.theory-nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+.back-home {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #0077ff;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.back-home:hover {
+    background: #005fcc;
+}
