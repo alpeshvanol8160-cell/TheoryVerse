@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://alpeshvanol8160-cell.github.io/TheoryVerse/sitemap.xml
